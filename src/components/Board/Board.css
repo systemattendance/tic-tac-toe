@@ -1,0 +1,16 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 20vmin);
+    grid-template-rows: repeat(3, 20vmin);
+    grid-gap: 1vmin;
+    margin: 2vmin 0;
+  }
+
+  @media screen and (max-width: 400px) {
+    #board {
+      grid-template-columns: repeat(3, 25vmin);
+      grid-template-rows: repeat(3, 25vmin);
+      grid-gap: 1.25vmin;
+      margin: 2.5vmin 0;
+    }
+  }
